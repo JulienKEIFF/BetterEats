@@ -3,8 +3,8 @@
 Membres du groupe 
 BOIME Benoît -> Product Owner
 HIRCH Claude -> Scrum Master
-KEIFF Julien -> Dev
-RICHARD Quentin -> Dev
+KEIFF Julien -> Developer
+RICHARD Quentin -> Developer
 
 Langage utilisé : NodeJS, Framework : Inquirer
 
