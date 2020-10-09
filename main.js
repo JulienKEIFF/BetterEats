@@ -1,13 +1,33 @@
-var inquirer = require('inquirer');
+const inquirer = require('inquirer');
+const fs = require('fs');
 
+let rawdata = fs.readFileSync('db.json');
+let data = JSON.parse(rawdata);
+
+let username = "";
+let password = "";
+
+
+console.log("Connexion au service BetterEats");
 inquirer.prompt(
   [{
-    name: "user_input",
+    name: "username",
     type: "input",
-    message: "Choix de base"
+    message: "Identifiants"
   }])
   .then(answers => {
-    console.log(answers.user_input);
+    username = answers.username
+    inquirer.prompt(
+      [{
+        name: "password",
+        type: "input",
+        message: "Mot de passe"
+      }])
+      .then(answers => {
+        password = answers.password
+        console.log(username + " login in !!!")
+      })
+
   })
   .catch(error => {
     if (error.isTtyError) {
