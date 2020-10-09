@@ -4,8 +4,6 @@ const path = require('path');
 
 let file = editJsonFile(path.resolve('./db.json'))
 
-"ajouter adresse de livraison"
-
 changeAdresseLivraison()
 
 function changeAdresseLivraison(){

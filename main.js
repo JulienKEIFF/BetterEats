@@ -1,3 +1,7 @@
+const newOrder = require('./actions/order/search');
+const updateCLient = require('./actions/info/change'); 
+const status = require('./actions/state-order/status');
+
 const inquirer = require('inquirer');
 const fs = require('fs');
 
@@ -6,7 +10,6 @@ let data = JSON.parse(rawdata);
 
 let username = "";
 let password = "";
-
 
 login()
 
@@ -47,11 +50,11 @@ function choice(){
     }])
     .then(answers => {
       if (answers.choice === "Commander un repas"){
-        console.log(answers)
+        newOrder.search();
       } else if (answers.choice === "Suivre l'évolution d'une commande"){
-
+        status.status();
       } else if (answers.choice === "Gerer mes informations personnels"){
-        
+        updateCLient.changeAdresseLivraison();
       }else{
         console.log("Choix non pris en charge. Veuillez retenter");
         choice();
