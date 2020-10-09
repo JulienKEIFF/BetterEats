@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JulienKEIFF/BetterEats#readme",
   "dependencies": {
+    "edit-json-file": "^1.4.1",
     "inquirer": "^7.3.3"
   }
 }
