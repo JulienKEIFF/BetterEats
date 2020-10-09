@@ -1,10 +1,10 @@
 # BetterEats
 
 Membres du groupe 
-BOIME Benoît
-HIRCH Claude
-KEIFF Julien
-RICHARD Quentin
+BOIME Benoît -> Product Owner
+HIRCH Claude -> Scrum Master
+KEIFF Julien -> Dev
+RICHARD Quentin -> Dev
 
 Langage utilisé : NodeJS, Framework : Inquirer
 
