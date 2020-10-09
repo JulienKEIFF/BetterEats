@@ -61,3 +61,9 @@ function choice(){
       }
     })
 }
+
+function back(){
+  choice();
+}
+
+module.exports = {back}
