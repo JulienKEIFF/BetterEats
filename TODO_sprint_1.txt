@@ -1,0 +1,8 @@
+- Commande des plats
+    -> Ajouter adresse de livraison => Quentin (info.js)
+    -> Rechercher un restaurant => Julien (search.js)
+    -> Visualiser un menu => Quentin (owner.js)
+    -> Choix du repas => Julien (arcticle.js)
+    -> Choix de l'adresse de livraison => Quentin (validate.js)
+    -> Payement => Quentin (validate.js)
+    -> Historique de commande => Julien (change.js)

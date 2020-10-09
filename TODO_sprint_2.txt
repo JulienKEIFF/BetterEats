@@ -1,0 +1,6 @@
+-> Ajouter leur restaurant
+-> Ajouter leurs plats
+-> Historique des commandes
+
+-> Commandes recurente 
+-> Enregistrer moyen de payement
