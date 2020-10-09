@@ -28,17 +28,16 @@
   "customer": [
     {
       "name": "Claude HIRSCH",
-      "adress": [
-        "54 rue de l'allouette",
-        "chez ta darone"
-      ]
+      "adress": ["54 rue de l'allouette"],
+      "pay": ["paypal"],
+      "orderList": ["N°56325562153202"]
     },
     {
       "name": "Benoit BOIME",
-      "adress": [
-        "1 impasse des fleurs",
-        "test 2"
-      ]
+      "adress": ["1 impasse des fleurs"],
+      "pay": ["paypal"],
+      "orderList": ["N°5633562153239"]
     }
-  ]
+  ],
+  "deliverAdress": "ffee"
 }
